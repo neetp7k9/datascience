@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 table = open("result.txt").readlines.map(&:to_f)
 file = open("result.txt",'w')
-a = 100
+a = -100
 
 open("change").readlines.map(&:to_i).each do |i|
     table[i] += a 
