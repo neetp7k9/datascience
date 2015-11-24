@@ -1,5 +1,6 @@
 # datascience
 build a file change from 0 to 9643
+build a directory name bruteForce to storage tmp file
 use makeFile.rb to build test file
 use bruteForce.rb to test the score
 use calc_rate oldScore to calculate the improvement
