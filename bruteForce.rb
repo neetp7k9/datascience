@@ -1,4 +1,5 @@
 #!/usr/bin/ruby
+
 file_table = open("change").readlines.map(&:to_i)
 unless ARGV[0]
   door = 0

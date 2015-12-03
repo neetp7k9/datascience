@@ -2,8 +2,8 @@
 table = open("result.txt").readlines.map(&:to_f)
 file_table = open("change").readlines.map(&:to_i)
 filepath = "./bruteForce/"
-a = -100
-
+a = 50
+# stage size
 file_table.each do  |file_index|
     file = open(filepath+file_index.to_s+".txt",'w') 
     table.each_with_index do |value,table_index|

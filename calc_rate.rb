@@ -1,8 +1,6 @@
 #!/usr/bin/ruby
 file_table = open("change").readlines.map(&:to_i)
 filepath = "./bruteForce/"
-a = -100
- 
 
 score = ARGV[0].to_f
 puts "default" +  score.to_s
